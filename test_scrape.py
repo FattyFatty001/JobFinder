@@ -7,7 +7,10 @@ from datetime import datetime
 import pandas as pd
 import requests
 from bs4 import BeautifulSoup
+from dotenv import load_dotenv
 from openai import OpenAI
+
+load_dotenv()
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
